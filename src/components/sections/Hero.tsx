@@ -1,3 +1,5 @@
+import profileImage from '../../assets/image.png'
+
 const technologies = [
     'Java',
     'Python',
@@ -17,7 +19,7 @@ export function Hero() {
     return (
         <section id="hero" className="bg-slate-950 px-4 py-20 text-white sm:px-6 lg:px-8">
             <div className="mx-auto max-w-7xl rounded-2xl border border-cyan-400/20 bg-slate-900/70 px-6 py-16 text-center shadow-2xl shadow-cyan-950/20 sm:px-10">
-                <img src="/images/hero-image.png" alt="Imagen de héroe" className="mx-auto mb-8 h-32 w-32 rounded-full border-4 border-cyan-400/30 shadow-lg shadow-cyan-950/50" />
+                <img src={profileImage} alt="Duvan junto a su madre" className="mx-auto mb-8 h-32 w-32 rounded-full border-4 border-cyan-400/30 shadow-lg shadow-cyan-950/50" />
                 <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">Portafolio personal</p>
                 <div className="mx-auto max-w-3xl">
                     <h1 className="mb-4 text-4xl font-bold sm:text-5xl">Bienvenido a mi portafolio</h1>
