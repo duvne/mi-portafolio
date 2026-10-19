@@ -44,6 +44,8 @@ El sitio puede desplegarse en Vercel conectando este repositorio de GitHub. Conf
 - Comando de compilación: `npm run build`
 - Directorio de salida: `dist`
 
+El archivo `vercel.json` configura el fallback de rutas de React para que páginas como `/about` también funcionen al abrirlas directamente o recargar el navegador.
+
 ## Personalización
 
 - Edita `src/components/sections/Hero.tsx` y `src/components/sections/Contact.tsx` para cambiar la presentación y los datos de contacto.
