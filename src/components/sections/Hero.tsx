@@ -41,7 +41,7 @@ export function Hero() {
                 <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-cyan-300">Stack tecnológico</p>
                 <h2 className="mb-4 text-3xl font-bold text-white">Habilidades</h2>
                 <p className="mb-8 text-lg text-slate-300">Tecnologías, metodologías y herramientas que utilizo o estudio.</p>
-                <h3 className="mb-4 text-left text-lg font-semibold text-cyan-200">Tecnologías</h3>
+                <h3 className="mb-4 text-left text-lg font-semibold text-cyan-200 mx-auto">Tecnologías</h3>
                 <ul className="mx-auto mb-8 grid max-w-4xl grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
                     {technologies.map((skill) => (
                         <li
@@ -52,7 +52,7 @@ export function Hero() {
                         </li>
                     ))}
                 </ul>
-                <h3 className="mb-4 text-left text-lg font-semibold text-cyan-200">Metodologías y herramientas</h3>
+                <h3 className="mb-4 text-left text-lg font-semibold text-cyan-200 mx-auto">Metodologías y herramientas</h3>
                 <ul className="mx-auto grid max-w-4xl grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
                     {methodologiesAndTools.map((skill) => (
                         <li
