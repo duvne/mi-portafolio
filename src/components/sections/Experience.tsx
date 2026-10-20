@@ -10,9 +10,13 @@ export function Experience() {
         </p>
         <h2 className="mb-5 text-3xl font-bold">Experiencia</h2>
         <p className="text-lg leading-relaxed text-slate-300">
-          Actualmente me encuentro cursando Ingeniería de Sistemas y aún no he tenido la
-          oportunidad de iniciar mi experiencia laboral. Estoy motivado para aplicar mis
-          conocimientos, seguir aprendiendo y aportar en mi primera oportunidad profesional.
+          Estudiante de Ingeniería de Sistemas, con gran interés en aplicar y fortalecer los
+          conocimientos adquiridos durante mi formación académica. Me caracterizo por mi
+          responsabilidad, compromiso, disposición para aprender y capacidad de adaptación.
+          Busco una oportunidad laboral que me permita adquirir experiencia profesional,
+          desarrollar nuevas habilidades y contribuir al cumplimiento de los objetivos de la
+          organización, aportando una actitud proactiva y muchas ganas de crecer personal y
+          profesionalmente.
         </p>
       </div>
     </section>
