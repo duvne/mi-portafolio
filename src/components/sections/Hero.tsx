@@ -1,4 +1,4 @@
-import profileImage from '../../assets/image.png'
+import profileImage from '../../assets/image.jpg'
 
 const technologies = [
     'Java',
@@ -23,7 +23,7 @@ export function Hero() {
                 <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">Portafolio personal</p>
                 <div className="mx-auto max-w-3xl">
                     <h1 className="mb-4 text-4xl font-bold sm:text-5xl">Bienvenido a mi portafolio</h1>
-                    <p className="mb-8 text-lg text-slate-300">mi nombre es duban hernandez villarreal Soy un desarrollador full-stack apasionado por crear soluciones innovadoras.</p>
+                    <p className="mb-8 text-lg text-slate-300">mi nombre es Duban Javier Hernandez Villarreal Soy un desarrollador full-stack apasionado por crear soluciones innovadoras.</p>
                     <a href="#projects" className="inline-block rounded-lg border border-cyan-300/50 bg-cyan-400/10 px-5 py-3 font-bold text-cyan-100 transition-colors hover:bg-cyan-300/20">
                         Ver proyectos
                     </a>
